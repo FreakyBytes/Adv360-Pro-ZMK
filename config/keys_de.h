@@ -164,4 +164,9 @@
 #define MAC_PIPE RA(MAC_LABK) // | (mac)
 #define DE_MICR RA(DE_M)    // µ
 
+
+// custom i3 workfolw
+#define I3_NEW_TERM     LGUI(ENTER)      // LEFT_GUI + ENTER 
+#define I3_START_MENU   LGUI(DE_D)       // LEFT_GUI + D
+
 #endif
