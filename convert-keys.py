@@ -25,7 +25,7 @@ class KeyCode:
     footnotes: Dict[str, Any] = field(default_factory=dict)
 
 
-mapping_re = re.compile(r'#define\s+(?P<name>[A-Z][A-Z0-9_]+)\s+(?P<target>[A-Z0-9_]+)\s*(//\s*(?P<descr>.*))?$', re.I)
+mapping_re = re.compile(r'#define\s+(?P<name>[A-Z][A-Z0-9_]+)\s+(?P<target>[A-Z0-9_()]+)\s*(//\s*(?P<descr>.*))?$', re.I)
 key_codes: List[KeyCode] = []
 
 file = "config/keys_de.h"
