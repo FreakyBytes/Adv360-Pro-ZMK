@@ -12,7 +12,7 @@
     [
        "&kp DE_PIPE",      "&kp N1",      "&kp N2",     "&kp N3",    "&kp N4",   "&kp N5",        "&tog 1",                                                                                  "&mo 3",   "&kp N6",   "&kp N7",   "&kp N8",      "&kp N9",    "&kp N0", "&kp DE_EXCL",
            "&kp TAB", "&kp DE_SEMI", "&kp DE_COMM", "&kp DE_DOT",  "&kp DE_P", "&kp DE_Y", "&kp LG(ENTER)",                                                                        "&kp PRINTSCREEN", "&kp DE_F", "&kp DE_G", "&kp DE_C",    "&kp DE_R",  "&kp DE_L", "&kp DE_HASH",
-           "&kp ESC",    "&kp DE_A",    "&kp DE_O",   "&kp DE_E",  "&kp DE_U", "&kp DE_I",  "&kp LG(DE_D)", "&kp LCTRL", "&kp LALT",  "&none",  "&none",  "&kp LGUI", "&kp RCTRL",           "&none", "&kp DE_D", "&kp DE_H", "&kp DE_T",    "&kp DE_N",  "&kp DE_S", "&kp DE_MINS",
+           "&kp ESC",    "&kp DE_A",    "&kp DE_O",   "&kp DE_E",  "&kp DE_U", "&kp DE_I",  "&kp LG(DE_D)", "&kp LCTRL", "&kp LGUI",  "&none",  "&none",  "&kp LALT", "&kp RCTRL",           "&none", "&kp DE_D", "&kp DE_H", "&kp DE_T",    "&kp DE_N",  "&kp DE_S", "&kp DE_MINS",
          "&kp LSHFT",  "&kp DE_SQT",    "&kp DE_Q",   "&kp DE_J",  "&kp DE_K", "&kp DE_X",         "&none",     "&none", "&kp HOME",  "&none",  "&none", "&kp PG_UP",     "&none",           "&none", "&kp DE_B", "&kp DE_M", "&kp DE_W",    "&kp DE_V",  "&kp DE_Z",   "&kp RSHFT",
              "&mo 2",  "&kp DE_DLR",    "&kp CAPS",   "&kp LEFT", "&kp RIGHT",                  "&kp BSPC",   "&kp DEL",  "&kp END",                     "&kp PG_DN", "&kp SPACE",       "&kp ENTER",               "&kp UP", "&kp DOWN", "&kp DE_FSLH", "&kp DE_AT",       "&mo 2"
     ], [
