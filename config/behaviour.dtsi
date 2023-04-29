@@ -1,7 +1,7 @@
 
   symb_accent: symb_accent {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted ° / `";
+    label = "Inverted ° / `";
     #binding-cells = <0>;
     bindings = <&kp DE_GRV>, <&kp DE_DEG>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -9,7 +9,7 @@
 
   symb_1: symb_1 {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted 1 / +";
+    label = "Inverted 1 / +";
     #binding-cells = <0>;
     bindings = <&kp DE_PLUS>, <&kp DE_1>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -17,7 +17,7 @@
 
   symb_2: symb_2 {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted 2 / [";
+    label = "Inverted 2 / [";
     #binding-cells = <0>;
     bindings = <&kp DE_LBKT>, <&kp DE_2>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -25,7 +25,7 @@
 
   symb_3: symb_3 {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted 3 / {";
+    label = "Inverted 3 / {";
     #binding-cells = <0>;
     bindings = <&kp DE_LBRC>, <&kp DE_3>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -33,7 +33,7 @@
 
   symb_4: symb_4 {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted 4 / (";
+    label = "Inverted 4 / (";
     #binding-cells = <0>;
     bindings = <&kp DE_LPAR>, <&kp DE_4>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -41,7 +41,7 @@
 
   symb_5: symb_5 {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted 5 / &";
+    label = "Inverted 5 / &";
     #binding-cells = <0>;
     bindings = <&kp DE_AMPS>, <&kp DE_5>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -49,7 +49,7 @@
 
   symb_6: symb_6 {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted 6 / =";
+    label = "Inverted 6 / =";
     #binding-cells = <0>;
     bindings = <&kp DE_EQL>, <&kp DE_6>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -57,7 +57,7 @@
 
   symb_7: symb_7 {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted 7 / )";
+    label = "Inverted 7 / )";
     #binding-cells = <0>;
     bindings = <&kp DE_RPAR>, <&kp DE_7>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -65,7 +65,7 @@
 
   symb_8: symb_8 {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted 8 / }";
+    label = "Inverted 8 / }";
     #binding-cells = <0>;
     bindings = <&kp DE_RBRC>, <&kp DE_8>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -73,7 +73,7 @@
 
   symb_9: symb_9 {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted 9 / ]";
+    label = "Inverted 9 / ]";
     #binding-cells = <0>;
     bindings = <&kp DE_RBKT>, <&kp DE_9>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -81,7 +81,7 @@
 
   symb_0: symb_0 {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted 0 / *";
+    label = "Inverted 0 / *";
     #binding-cells = <0>;
     bindings = <&kp DE_STAR>, <&kp DE_0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -89,7 +89,7 @@
 
   symb_excl: symb_excl {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted % / !";
+    label = "Inverted % / !";
     #binding-cells = <0>;
     bindings = <&kp DE_EXCL>, <&kp DE_PERC>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -99,7 +99,7 @@
 
   symb_semi: symb_semi {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted 4 / (";
+    label = "Inverted ; / (";
     #binding-cells = <0>;
     bindings = <&kp DE_SEMI>, <&kp DE_COLN>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -107,15 +107,15 @@
 
   symb_comma: symb_comma {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted < / ,";
+    label = "Inverted < / ,";
     #binding-cells = <0>;
-    bindings = <&kp DE_COMMA>, <&kp DE_LABK>;
+    bindings = <&kp DE_COMM>, <&kp DE_LABK>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
   };
 
   symb_dot: symb_dot {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted > / .";
+    label = "Inverted > / .";
     #binding-cells = <0>;
     bindings = <&kp DE_DOT>, <&kp DE_RABK>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -123,7 +123,7 @@
 
   symb_bakslh: symb_bakslh {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted # / \\";
+    label = "Inverted # / back slash";
     #binding-cells = <0>;
     bindings = <&kp DE_BSLH>, <&kp DE_HASH>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -133,7 +133,7 @@
 
   symb_minus: symb_4 {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted _ / -";
+    label = "Inverted _ / -";
     #binding-cells = <0>;
     bindings = <&kp DE_MINS>, <&kp DE_UNDS>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -143,7 +143,7 @@
 
   symb_quote: symb_quote {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted ' / \"";
+    label = "Inverted ' / ''";
     #binding-cells = <0>;
     bindings = <&kp DE_DQT>, <&kp DE_SQT>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -153,7 +153,7 @@
 
   symb_dollar: symb_dollar {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted ~ / $";
+    label = "Inverted ~ / $";
     #binding-cells = <0>;
     bindings = <&kp DE_DLR>, <&kp DE_TILD>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -161,7 +161,7 @@
 
   symb_pipe: symb_pipe {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted pipe / \\";
+    label = "Inverted pipe / back slash";
     #binding-cells = <0>;
     bindings = <&kp DE_PIPE>, <&kp DE_BSLH>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -169,7 +169,7 @@
 
   symb_slh: symb_slh {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted ? / /";
+    label = "Inverted ? / /";
     #binding-cells = <0>;
     bindings = <&kp DE_FSLH>, <&kp DE_QUES>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -177,7 +177,7 @@
 
   symb_at: symb_at {
     compatible = "zmk,behavior-mod-morph";
-    lable = "Inverted ^ / @";
+    label = "Inverted ^ / @";
     #binding-cells = <0>;
     bindings = <&kp DE_AT>, <&kp DE_CIRC>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
