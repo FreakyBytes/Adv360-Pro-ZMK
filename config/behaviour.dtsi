@@ -131,7 +131,7 @@
 
   // ----
 
-  symb_minus: symb_4 {
+  symb_minus: symb_minus {
     compatible = "zmk,behavior-mod-morph";
     label = "Inverted _ / -";
     #binding-cells = <0>;
