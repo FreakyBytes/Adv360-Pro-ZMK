@@ -32,8 +32,8 @@
         default_layer {
             bindings = <
  &symb_accent &symb_1      &symb_2      &symb_3      &symb_4   &symb_5         &tog 1                                                                       &mo 3    &symb_6    &symb_7 &symb_8      &symb_9    &symb_0   &symb_excl
- &kp TAB      &symb_semi   &symb_comma  &symb_dot    &kp DE_P  &kp DE_Y        &kp LG(ENTER)                                                             &kp PRINTSCREEN  &kp DE_F  &kp DE_G  &kp DE_C     &kp DE_R   &kp DE_L  &symb_bakslh
- &kp ESC      &kp DE_A     &kp DE_O     &kp DE_E     &kp DE_U  &kp DE_I        &kp LG(DE_D)  &kp LCTRL  &kp LGUI   &none   &none   &kp LALT  &kp RCTRL            &none  &kp DE_D  &kp DE_H  &kp DE_T     &kp DE_N   &kp DE_S  &symb_minus
+ &kp TAB      &symb_semi   &symb_comma  &symb_dot    &kp DE_P  &kp DE_Y        &kp PRINTSCREEN                                                                    &kp PRINTSCREEN  &kp DE_F  &kp DE_G  &kp DE_C     &kp DE_R   &kp DE_L  &symb_bakslh
+ &kp ESC      &kp DE_A     &kp DE_O     &kp DE_E     &kp DE_U  &kp DE_I        &kp LG(DE_D)  &kp LCTRL  &kp LGUI   &none   &none   &kp LALT  &kp RCTRL            &kp LG(ENTER)  &kp DE_D  &kp DE_H  &kp DE_T     &kp DE_N   &kp DE_S  &symb_minus
  &kp LSHFT    &symb_quote  &kp DE_Q     &kp DE_J     &kp DE_K  &kp DE_X        &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none            &none  &kp DE_B  &kp DE_M  &kp DE_W     &kp DE_V   &kp DE_Z    &kp RSHFT
  &mo 2        &symb_dollar &symb_pipe   &kp LEFT     &kp RIGHT                 &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp SPACE        &kp ENTER              &kp UP  &kp DOWN  &symb_slh  &symb_at    &mo 2
             >;
