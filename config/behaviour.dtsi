@@ -182,3 +182,85 @@
     bindings = <&kp DE_AT>, <&kp DE_CIRC>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
   };
+
+  // ----
+
+  i3_d1: i3_d1 {
+    compatible = "zmk,behavior-tap-dance";
+    label = "i3 Desktop 1";
+    #binding-cells = <0>;
+    tapping-term-ms = <300>;
+    bindings = <&kp LG(N1)>, <&kp LG(LS(N1))>;
+  };
+
+  i3_d2: i3_d2 {
+    compatible = "zmk,behavior-tap-dance";
+    label = "i3 Desktop 2";
+    #binding-cells = <0>;
+    tapping-term-ms = <300>;
+    bindings = <&kp LG(N2)>, <&kp LG(LS(N2))>;
+  };
+
+  i3_d3: i3_d3 {
+    compatible = "zmk,behavior-tap-dance";
+    label = "i3 Desktop 3";
+    #binding-cells = <0>;
+    tapping-term-ms = <300>;
+    bindings = <&kp LG(N3)>, <&kp LG(LS(N3))>;
+  };
+
+  i3_d4: i3_d4 {
+    compatible = "zmk,behavior-tap-dance";
+    label = "i3 Desktop 4";
+    #binding-cells = <0>;
+    tapping-term-ms = <300>;
+    bindings = <&kp LG(N4)>, <&kp LG(LS(N4))>;
+  };
+
+  i3_d5: i3_d5 {
+    compatible = "zmk,behavior-tap-dance";
+    label = "i3 Desktop 5";
+    #binding-cells = <0>;
+    tapping-term-ms = <300>;
+    bindings = <&kp LG(N5)>, <&kp LG(LS(N5))>;
+  };
+
+  i3_d6: i3_d6 {
+    compatible = "zmk,behavior-tap-dance";
+    label = "i3 Desktop 6";
+    #binding-cells = <0>;
+    tapping-term-ms = <300>;
+    bindings = <&kp LG(N6)>, <&kp LG(LS(N6))>;
+  };
+
+  i3_d7: i3_d7 {
+    compatible = "zmk,behavior-tap-dance";
+    label = "i3 Desktop 7";
+    #binding-cells = <0>;
+    tapping-term-ms = <300>;
+    bindings = <&kp LG(N7)>, <&kp LG(LS(N7))>;
+  };
+
+  i3_d8: i3_d8 {
+    compatible = "zmk,behavior-tap-dance";
+    label = "i3 Desktop 8";
+    #binding-cells = <0>;
+    tapping-term-ms = <300>;
+    bindings = <&kp LG(N8)>, <&kp LG(LS(N8))>;
+  };
+
+  i3_d9: i3_d9 {
+    compatible = "zmk,behavior-tap-dance";
+    label = "i3 Desktop 9";
+    #binding-cells = <0>;
+    tapping-term-ms = <300>;
+    bindings = <&kp LG(N9)>, <&kp LG(LS(N9))>;
+  };
+
+  i3_d10: i3_d10 {
+    compatible = "zmk,behavior-tap-dance";
+    label = "i3 Desktop 10";
+    #binding-cells = <0>;
+    tapping-term-ms = <300>;
+    bindings = <&kp LG(N0)>, <&kp LG(LS(N0))>;
+  };

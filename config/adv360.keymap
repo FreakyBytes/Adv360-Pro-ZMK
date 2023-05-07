@@ -33,7 +33,7 @@
             bindings = <
  &symb_accent &symb_1      &symb_2      &symb_3      &symb_4   &symb_5         &tog 1                                                                       &mo 3    &symb_6    &symb_7 &symb_8      &symb_9    &symb_0   &symb_excl
  &kp TAB      &symb_semi   &symb_comma  &symb_dot    &kp DE_P  &kp DE_Y        &kp PRINTSCREEN                                                                    &kp PRINTSCREEN  &kp DE_F  &kp DE_G  &kp DE_C     &kp DE_R   &kp DE_L  &symb_bakslh
- &kp ESC      &kp DE_A     &kp DE_O     &kp DE_E     &kp DE_U  &kp DE_I        &kp LG(DE_D)  &kp LCTRL  &kp LGUI   &none   &none   &kp LALT  &kp RCTRL            &kp LG(ENTER)  &kp DE_D  &kp DE_H  &kp DE_T     &kp DE_N   &kp DE_S  &symb_minus
+ &kp ESC      &kp DE_A     &kp DE_O     &kp DE_E     &kp DE_U  &kp DE_I        &kp LG(DE_D)  &kp LCTRL  &mo 4      &none   &none   &kp LALT  &kp RCTRL            &kp LG(ENTER)  &kp DE_D  &kp DE_H  &kp DE_T     &kp DE_N   &kp DE_S  &symb_minus
  &kp LSHFT    &symb_quote  &kp DE_Q     &kp DE_J     &kp DE_K  &kp DE_X        &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none            &none  &kp DE_B  &kp DE_M  &kp DE_W     &kp DE_V   &kp DE_Z    &kp RSHFT
  &mo 2        &symb_dollar &symb_pipe   &kp LEFT     &kp RIGHT                 &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp SPACE        &kp ENTER              &kp UP  &kp DOWN  &symb_slh  &symb_at    &mo 2
             >;
@@ -66,6 +66,16 @@
   &none         &none         &none         &none         &none         &none  &rgb_ug RGB_MEFS_CMD 5  &bt BT_CLR   &none   &none   &none  &bt BT_CLR  &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5         &none         &none         &none         &none         &none   &none
   &none         &none         &none         &none         &none         &none                   &none       &none   &none   &none   &none       &none       &none                   &none         &none         &none         &none         &none         &none   &none
   &none         &none         &none    &bl BL_INC    &bl BL_DEC                       &rgb_ug RGB_TOG  &bl BL_TOG   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG                  &bl BL_INC    &bl BL_DEC         &none         &none   &none
+            >;
+        };
+
+        layer_i3 {
+            bindings = <
+  &none         &i3_d1        &i3_d2        &i3_d3        &i3_d4        &i3_d5                  &none                                                                              &none          &i3_d6        &i3_d7        &i3_d8        &i3_d9        &i3_d10 &none
+  &none         &none         &none         &none         &none         &none                   &none                                                                              &none          &none         &none         &none         &none         &none   &none
+  &none         &none         &none         &none         &none         &none  &none &none                  &none   &none   &none   &none       &none       &none                  &none          &none         &kp LG(LEFT)  &kp (UP)      &kp (DOWN)    &kp (RIGHT) &none
+  &kp LSHIFT    &none         &none         &none         &none         &none                   &none       &none   &none   &none   &none       &none       &none                   &none         &none         &none         &none         &none         &none   &kp RSHIFT
+  &none         &none         &none         &kp LG(LEFT)  &kp LG(RIGHT)                         &none               &none    &none                       &none  &none          &none                   &kp LG(UP)     &kp LG(DOWN)          &none         &none   &none
             >;
         };
 
