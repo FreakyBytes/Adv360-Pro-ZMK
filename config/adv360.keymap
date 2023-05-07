@@ -73,9 +73,9 @@
             bindings = <
   &none         &i3_d1        &i3_d2        &i3_d3        &i3_d4        &i3_d5                  &none                                                                              &none          &i3_d6        &i3_d7        &i3_d8        &i3_d9        &i3_d10 &none
   &none         &none         &none         &none         &none         &none                   &none                                                                              &none          &none         &none         &none         &none         &none   &none
-  &none         &none         &none         &none         &none         &none  &none &none                  &none   &none   &none   &none       &none       &none                  &none          &none         &kp LG(LEFT)  &kp (UP)      &kp (DOWN)    &kp (RIGHT) &none
-  &kp LSHIFT    &none         &none         &none         &none         &none                   &none       &none   &none   &none   &none       &none       &none                   &none         &none         &none         &none         &none         &none   &kp RSHIFT
-  &none         &none         &none         &kp LG(LEFT)  &kp LG(RIGHT)                         &none               &none    &none                       &none  &none          &none                   &kp LG(UP)     &kp LG(DOWN)          &none         &none   &none
+  &none         &none         &none         &none         &none         &none                   &none       &none   &none   &none   &none       &none       &none                  &none          &none         &kp LG(LEFT)  &kp LG(DOWN)    &kp LG(UP)  &kp LG(RIGHT) &none
+  &kp LSHIFT    &none         &none         &none         &none         &none                   &none       &none   &none   &none   &none       &kp LG(LS(PG_UP))       &none          &none          &none         &none         &none         &none         &none   &kp RSHIFT
+  &none         &none         &none         &kp LG(LEFT)  &kp LG(RIGHT)                         &none               &none    &none                       &kp LG(LS(PG_DN))  &none          &none                   &kp LG(UP)     &kp LG(DOWN)          &none         &none   &none
             >;
         };
 
