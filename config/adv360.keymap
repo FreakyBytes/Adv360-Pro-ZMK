@@ -35,7 +35,7 @@
  &kp TAB      &symb_semi   &symb_comma  &symb_dot    &kp DE_P  &kp DE_Y        &kp PRINTSCREEN                                                                    &kp PRINTSCREEN  &kp DE_F  &kp DE_G  &kp DE_C     &kp DE_R   &kp DE_L  &symb_bakslh
  &kp ESC      &kp DE_A     &kp DE_O     &kp DE_E     &kp DE_U  &kp DE_I        &kp LG(DE_D)  &kp LCTRL  &mo 4      &none   &none   &kp LALT  &kp RCTRL            &kp LG(ENTER)  &kp DE_D  &kp DE_H  &kp DE_T     &kp DE_N   &kp DE_S  &symb_minus
  &kp LSHFT    &symb_quote  &kp DE_Q     &kp DE_J     &kp DE_K  &kp DE_X        &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none            &none  &kp DE_B  &kp DE_M  &kp DE_W     &kp DE_V   &kp DE_Z    &kp RSHFT
- &mo 2        &symb_dollar &symb_pipe   &kp LEFT     &kp RIGHT                 &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp SPACE        &kp ENTER              &kp UP  &kp DOWN  &symb_slh  &symb_at    &mo 2
+ &sl 2        &symb_dollar &symb_pipe   &kp LEFT     &kp RIGHT                 &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp SPACE        &kp ENTER              &kp UP  &kp DOWN  &symb_slh  &symb_at    &sl 2
             >;
         };
 
@@ -74,7 +74,7 @@
   &none         &i3_d1        &i3_d2        &i3_d3        &i3_d4        &i3_d5                  &none                                                                              &none          &i3_d6        &i3_d7        &i3_d8        &i3_d9        &i3_d10 &none
   &none         &none         &none         &none         &none         &none                   &none                                                                              &none          &none         &none         &none         &none         &none   &none
   &none         &none         &none         &none         &none         &none                   &none       &none   &none   &none   &none       &none       &none                  &none          &none         &kp LG(LEFT)  &kp LG(DOWN)    &kp LG(UP)  &kp LG(RIGHT) &none
-  &kp LSHIFT    &none         &none         &none         &none         &none                   &none       &none   &none   &none   &none       &kp LG(LS(PG_UP))       &none          &none          &none         &none         &none         &none         &none   &kp RSHIFT
+  &kp LSHIFT    &none         &trans        &none         &none         &none                   &none       &none   &none   &none   &none       &kp LG(LS(PG_UP))       &none          &none          &none         &none         &none         &none         &none   &kp RSHIFT
   &none         &none         &none         &kp LG(LEFT)  &kp LG(RIGHT)                         &none               &none    &none                       &kp LG(LS(PG_DN))  &none          &none                   &kp LG(UP)     &kp LG(DOWN)          &none         &none   &none
             >;
         };
