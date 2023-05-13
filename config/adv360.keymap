@@ -18,11 +18,10 @@
 #include <dt-bindings/zmk/backlight.h>
 #include "keys_de.h"
 
-
 / {
   behaviors {
     #include "macros.dtsi"
-    #include "behaviour.dtsi"
+    #include "behaviors.dtsi"
   };
 
   keymap {
